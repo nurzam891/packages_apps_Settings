@@ -14,6 +14,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Strings for typography -->
+    <string name="komodo_contorl_font_family_subtitle">sans-serif-medium</string>
+    <string name="komodo_maintainer">MAINTAINER</string>
+    <string name="komodo_realese">VERSION</string>
+    <string name="komodo_type">BUILD TYPE</string>
+    <string name="komodo_model">VARIANT</string>
+    <string name="maintainer_message">Henrysg</string>
+    <string name="realese_message">3.1 . Reptile</string>
+    <string name="type_message">Official</string>
+    <string name="model_message">Gapps</string>
     <!-- Strings for Dialog yes button -->
     <string name="yes">"Yes"</string>
     <!-- Strings for Dialog no button -->

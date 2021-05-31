@@ -15,6 +15,18 @@
 
 <resources>
 
+    <style name="komodo_contorl_text_style_base">
+        <item name="android:breakStrategy">simple</item>
+    </style>
+    <style name="komodo_contorl_text_style_body1" parent="@style/komodo_contorl_text_style_base">
+        <item name="android:textSize">@dimen/komodo_contorl_text_size_body1</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:lineSpacingMultiplier">@dimen/komodo_contorl_row_space_1</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
+        <item name="android:letterSpacing">@dimen/kmd_contorl_letter_space_body1</item>
+    </style>
+    <style name="komodo_contorl_text_style_subtitle" parent="@style/komodo_contorl_text_style_base">
+         
     <style name="Widget.ActionBar.Base"
            parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid"/>
 

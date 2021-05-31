@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+ <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_gravity="center_vertical" android:id="@+id/phone_hardware_info" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <ImageView android:id="@+id/phone_image" android:layout_width="110.0dip" android:layout_height="225.0dip" android:layout_marginTkmd="25.5dip" android:layout_marginBottom="30.0dip" android:src="@drawable/komodo_7" android:antialias="true" android:scaleType="fitXY" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="48.0dip" />

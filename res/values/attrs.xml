@@ -15,6 +15,8 @@
 -->
 
 <resources>
+    <attr name="preferenceCategoryTitleTextColor" format="reference|color" />
+     
     <declare-styleable name="PercentageBarChart">
         <!-- Background color -->
         <attr name="emptyColor" format="color" />

@@ -15,6 +15,46 @@
 
 <resources>
 
+    <style name="homepage_text_style_base">
+        <item name="android:breakStrategy">simple</item>
+    </style>
+    <style name="homepage_cardview_primary" parent="@style/homepage_text_style_base">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
+    </style>
+    <style name="homepage_cardview_secondary" parent="@style/homepage_text_style_base">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
+    </style>
+     <style name="pad_preference_category_title" parent="@style/homepage_text_style_base">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
+    </style>
+    <style name="BasePreferenceThemeOverlay">
+        <item name="android:scrollbars">vertical</item>
+        <item name="checkBoxPreferenceStyle">@style/Preference.CheckBoxPreference.Material</item>
+        <item name="dialogPreferenceStyle">@style/Preference.DialogPreference.Material</item>
+        <item name="dropdownPreferenceStyle">@style/Preference.DropDown.Material</item>
+        <item name="editTextPreferenceStyle">@style/Preference.DialogPreference.EditTextPreference.Material</item>
+        <item name="preferenceCategoryStyle">@style/Preference.Category.Material</item>
+        <item name="preferenceCategoryTitleTextAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="preferenceFragmentCompatStyle">@style/PreferenceFragment.Material</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Material</item>
+        <item name="preferenceFragmentStyle">@style/PreferenceFragment.Material</item>
+        <item name="preferenceScreenStyle">@style/Preference.PreferenceScreen.Material</item>
+        <item name="preferenceStyle">@style/Preference.Material</item>
+        <item name="seekBarPreferenceStyle">@style/Preference.SeekBarPreference.Material</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.SwitchPreferenceCompat.Material</item>
+        <item name="switchPreferenceStyle">@style/Preference.SwitchPreference.Material</item>
+    </style>
+    <style name="SettingsCategoryPreference" parent="@style/Preference.Category.Material" />
+    <style name="SettingsPreferenceFragmentStyle" parent="@style/PreferenceFragment.Material">
+        <item name="android:divider">@android:drawable/list_divider_material</item>
+    </style>
+     
     <style name="komodo_contorl_text_style_base">
         <item name="android:breakStrategy">simple</item>
     </style>

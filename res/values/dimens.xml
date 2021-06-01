@@ -15,6 +15,10 @@
 -->
 
 <resources>
+    <dimen name="card_view_start_margin">15.0dip</dimen>
+    <dimen name="card_view_end_margin">15.0dip</dimen>
+    <dimen name="card_view_radius">24.0dip</dimen>
+    <dimen name="seekbar_view_radius">24.0dip</dimen>
     <dimen name="komodo_contorl_text_size_body1">13.399994sp</dimen>
     <dimen name="komodo_contorl_text_size_subtitle">12.399994sp</dimen>
     <item type="dimen" name="komodo_contorl_row_space_1">1.03</item>

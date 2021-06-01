@@ -16,6 +16,11 @@
 
 <resources>
 
+     <color name="pad_settings_home_bg">#fff2f2f2</color>
+     <color name="card_view_bg">#fffdfdfd</color>
+     <color name="search_bar_background">#fffdfdfd</color>
+     <color name="contextual_card_background">#fffdfdfd</color>
+     
     <color name="crypt_keeper_clock_background">#ff9a9a9a</color>
     <color name="crypt_keeper_clock_foreground">#ff666666</color>
     <color name="crypt_keeper_clock_am_pm">#ff9a9a9a</color>

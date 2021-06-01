@@ -15,6 +15,11 @@
 -->
 
 <resources>
+    <color name="pad_settings_home_bg">@android:color/black</color>
+    <color name="card_view_bg">#ff161616</color>
+    <color name="search_bar_background">#ff161616</color>
+    <color name="contextual_card_background">#ff161616</color>
+     
     <color name="switchbar_switch_track_tint">#82000000</color>
     <color name="switchbar_switch_thumb_tint">@android:color/black</color>
     <color name="homepage_accessibility_background">#783BE5</color>
